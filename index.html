@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Image Gallery</title>
+    <meta name="description" content="A professional image gallery internship project.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Creative Vision</h1>
+        <p>Explore the stunning world of photography</p>
+    </header>
+
+    <main>
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+            <button class="filter-btn" data-filter="architecture">Architecture</button>
+            <button class="filter-btn" data-filter="technology">Technology</button>
+        </div>
+
+        <div class="gallery" id="gallery">
+            <div class="gallery-item" data-category="architecture">
+                <img src="images/architecture_1_1780910256015.png" alt="Cyberpunk Skyscraper">
+                <div class="overlay">
+                    <h3>Cyberpunk Skyscraper</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="images/architecture_2_1780910270864.png" alt="European Castle">
+                <div class="overlay">
+                    <h3>European Castle</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature_1_1780910228521.png" alt="Majestic Mountain Lake">
+                <div class="overlay">
+                    <h3>Majestic Mountain</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature_2_1780910242573.png" alt="Tropical Rainforest">
+                <div class="overlay">
+                    <h3>Tropical Rainforest</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="technology">
+                <img src="images/technology_1_1780910285096.png" alt="Quantum Computer Chip">
+                <div class="overlay">
+                    <h3>Quantum Chip</h3>
+                    <p>Technology</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="technology">
+                <img src="images/technology_2_1780910297807.png" alt="Robotic Arm">
+                <div class="overlay">
+                    <h3>Robotic Arm</h3>
+                    <p>Technology</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature_3_1780910505422.png" alt="Autumn Forest Path">
+                <div class="overlay">
+                    <h3>Autumn Forest</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="images/architecture_3_1780910518354.png" alt="Modern Luxury Villa">
+                <div class="overlay">
+                    <h3>Luxury Villa</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="technology">
+                <img src="images/technology_3_1780910531505.png" alt="Neon Server Room">
+                <div class="overlay">
+                    <h3>Neon Servers</h3>
+                    <p>Technology</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature_4_1780910860433.png" alt="Winter Landscape">
+                <div class="overlay">
+                    <h3>Winter Landscape</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature_5_1780910873873.png" alt="Desert Oasis">
+                <div class="overlay">
+                    <h3>Desert Oasis</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature_6_1780910887420.png" alt="Coral Reef">
+                <div class="overlay">
+                    <h3>Coral Reef</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature_7_1780910900569.png" alt="Green Meadow">
+                <div class="overlay">
+                    <h3>Green Meadow</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature_8_1780910913884.png" alt="Stormy Ocean">
+                <div class="overlay">
+                    <h3>Stormy Ocean</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="https://picsum.photos/id/274/800/600" alt="City Architecture">
+                <div class="overlay">
+                    <h3>City Architecture</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="https://picsum.photos/id/164/800/600" alt="City Bridge">
+                <div class="overlay">
+                    <h3>City Bridge</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="https://picsum.photos/id/175/800/600" alt="Clock Tower">
+                <div class="overlay">
+                    <h3>Clock Tower</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="https://picsum.photos/id/195/800/600" alt="Modern Building">
+                <div class="overlay">
+                    <h3>Modern Building</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="https://picsum.photos/id/238/800/600" alt="City Aerial">
+                <div class="overlay">
+                    <h3>City Aerial</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="technology">
+                <img src="https://picsum.photos/id/96/800/600" alt="Tech Setup">
+                <div class="overlay">
+                    <h3>Tech Setup</h3>
+                    <p>Technology</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="technology">
+                <img src="https://picsum.photos/id/3/800/600" alt="Tech Device">
+                <div class="overlay">
+                    <h3>Tech Device</h3>
+                    <p>Technology</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="technology">
+                <img src="https://picsum.photos/id/4/800/600" alt="Laptop Workspace">
+                <div class="overlay">
+                    <h3>Laptop Workspace</h3>
+                    <p>Technology</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="technology">
+                <img src="https://picsum.photos/id/20/800/600" alt="Desk Setup">
+                <div class="overlay">
+                    <h3>Desk Setup</h3>
+                    <p>Technology</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="technology">
+                <img src="https://picsum.photos/id/36/800/600" alt="Coding Laptop">
+                <div class="overlay">
+                    <h3>Coding Laptop</h3>
+                    <p>Technology</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="technology">
+                <img src="https://picsum.photos/id/60/800/600" alt="Computer Screen">
+                <div class="overlay">
+                    <h3>Computer Screen</h3>
+                    <p>Technology</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="nature">
+                <img src="https://picsum.photos/id/1015/800/600" alt="River Canyon">
+                <div class="overlay">
+                    <h3>River Canyon</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="https://picsum.photos/id/1036/800/600" alt="Snowy Peaks">
+                <div class="overlay">
+                    <h3>Snowy Peaks</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="https://picsum.photos/id/1039/800/600" alt="Majestic Waterfall">
+                <div class="overlay">
+                    <h3>Majestic Waterfall</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="https://picsum.photos/id/1043/800/600" alt="Lush Valley">
+                <div class="overlay">
+                    <h3>Lush Valley</h3>
+                    <p>Nature</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="architecture">
+                <img src="https://picsum.photos/id/1040/800/600" alt="Ancient Castle">
+                <div class="overlay">
+                    <h3>Ancient Castle</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="https://picsum.photos/id/1044/800/600" alt="Scenic Lighthouse">
+                <div class="overlay">
+                    <h3>Scenic Lighthouse</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="architecture">
+                <img src="https://picsum.photos/id/1048/800/600" alt="European Architecture">
+                <div class="overlay">
+                    <h3>European Architecture</h3>
+                    <p>Architecture</p>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="technology">
+                <img src="https://picsum.photos/id/119/800/600" alt="Minimalist Macbook">
+                <div class="overlay">
+                    <h3>Minimalist Macbook</h3>
+                    <p>Technology</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="technology">
+                <img src="https://picsum.photos/id/201/800/600" alt="Clean Workspace">
+                <div class="overlay">
+                    <h3>Clean Workspace</h3>
+                    <p>Technology</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="technology">
+                <img src="https://picsum.photos/id/365/800/600" alt="Futuristic Abstract">
+                <div class="overlay">
+                    <h3>Futuristic Abstract</h3>
+                    <p>Technology</p>
+                </div>
+            </div>
+
+            <div class="gallery-item highlight-item" data-category="nature">
+                <img src="https://picsum.photos/id/1011/800/600" alt="Canoe on Alpine Lake">
+                <div class="overlay">
+                    <h3>Alpine Lake Explorer</h3>
+                    <p>Nature Highlight</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <button class="nav-btn prev-btn">&lt;</button>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Lightbox Image">
+            <div id="lightbox-caption"></div>
+        </div>
+        <button class="nav-btn next-btn">&gt;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
